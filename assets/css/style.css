@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 40px;
+    background-color: aquamarine;
+}
+
+.header-left > img {
+    height: 36px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.nav > li >a{
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.scenery{
+    /* background-color: aqua; */
+    background-image: url("../img2/遠くに富士山.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.title{
+    font-size: 60px;
+}
+
+.guideline{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#虹と雲{
+    width: 100vw;
+}
+
+.image{
+    height: 150px;
+    margin: 0 20px;
+}
+
+.contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: 20px;
+}
+
+.description{
+    width: 50%;
+}
+
+h2{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+    color: skyblue;
+}
+
+.top-banner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.top-banner li{
+    width: calc(100%/5);
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+.top-banner li img{
+    max-width: 100%;
+    height: auto;
+    border: solid 1px #ccc ;
+}
+
+h5{
+    text-align: center;
+    padding: 40px;
+    color: red;
+}
+
+h4{
+    text-align: center;
+    padding: 40px;
+    color: black;
+}
+
+footer{
+    background-color: aquamarine;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+}
